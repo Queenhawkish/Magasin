@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.logo{
+    width: 15%;
+    height: 80%;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-between;
+    margin: 1%;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-evenly;
+}
+
+h1{
+    margin-right: 10%;
+    color: #D9232E;
+}
+
+.research{
+    display: flex;
+    height: 2em;
+    width: 17em;
+}
+
+.search{
+    background-color: white;
+    font-size: 1em;
+    border-radius: 0.3em;
+}
+
+.i{
+    margin-right: 1%;
+    height: 1.1em;
+    text-align: center;
+    border-color: #D9232E;
+    margin-top: 0.7%;
+    margin: auto;
+}
+
+.b{
+    width: 3em;
+    height: 1.5em;
+    margin: auto;
+    border-color: #D9232E;
+}
+
+.search::placeholder{
+    color: #847b7b;
+}
+
+.connect{
+    display: flex;
+    color: #D9232E;
+    width: 17em;
+    height: 2em;
+}
+
+.addco{
+    margin: auto;
+    color: #D9232E;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9232E;
+    font-size: 2em;
+    padding: 1%;
+    align-items: center;
+    padding: 0.5em 1em;
+}
+
+.basket{
+    display: flex;
+    font-size: 1em;
+    background-color: white;
+    border-radius: 0.3em;
+    width: 2em;
+    height: 1.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.article{
+    display: flex;
+    border-radius: 0.3em;
+    border: 0.3em solid #847b7b;
+    width: 25%;
+    height: 5em;
+    margin: 1%;
+}
+
+.img{
+    display: flex;
+}
+
+.text{
+    display: flex;
+}
+
+.sales{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    background-color: #D9232E;
+    padding: 10px;
+    justify-content: center;
+    width: 100%;
+    padding: 3rem 0;
+    position: static;
+    bottom: 0;
+}
+
+footer a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
