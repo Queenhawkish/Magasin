@@ -3,4 +3,4 @@ require "../models/data.php";
 
 
 
-include "../views/home.php";
+include "../views/romance.php";
