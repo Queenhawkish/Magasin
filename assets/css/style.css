@@ -123,16 +123,43 @@ nav a{
     border-radius: 0.3em;
     border: 0.3em solid #847b7b;
     width: 25%;
-    height: 5em;
     margin: 1%;
+    color: black;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
 .img{
     display: flex;
+    text-align: center;
 }
 
 .text{
     display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: #D9232E;
+    text-align: center;
+    margin: 10px;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+}
+
+li{
+    padding: 5px;
+}
+
+.resume{
+    height: 5em;
+    overflow: auto;
 }
 
 .sales{
