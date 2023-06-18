@@ -4,7 +4,11 @@
 
 <!-- Ceci est ma home page -->
 
+<div class="content">
+    <?php createAction($data) ?>
+    
 
+</div>
 
 
 <?php include "components/footer.php" ?>

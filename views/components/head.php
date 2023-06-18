@@ -22,7 +22,7 @@
             <button type="submit" class="search b"><i class="bi bi-search"></i></button>
         </div>
         <div class="connect">
-            <a href="#" class="addco"><i class="bi bi-person-fill-add"></i>Créer un compte</a>
-            <a href="#" class="addco"><i class="bi bi-person-fill"></i>Se connecter</a>
+            <a href="../controllers/controllers_signup.php" class="addco"><i class="bi bi-person-fill-add"></i>Créer un compte</a>
+            <a href="../controllers/controllers_signin.php" class="addco"><i class="bi bi-person-fill"></i>Se connecter</a>
         </div>
     </div>

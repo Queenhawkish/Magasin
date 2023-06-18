@@ -1,6 +1,6 @@
 <?php
 $data = [
-		"News" => [
+		"news" => [
 			[
 				"image" => "1.webp",
 				"title" => "17-sai Kara Yarinaosu Propose",
@@ -94,7 +94,7 @@ $data = [
 				"resume" => "Toraya est un employé de bureau plutôt sérieux et banal qui cache un secret : il a un fort appétit sexuel. Il est toujours à la recherche de l'homme parfait pour lui, même si ces derniers temps, il a travaillé dur et n'a pas eu de relations sexuelles du tout. Un jour après une rude journée de travail, il se masturbe dans les toilettes du bureau à cause du stress des heures supplémentaires. Mais il se fait accidentellement attraper par son patron, Saikawa... !?",
 			]
 			],
-		"Romance" => [
+		"romance" => [
 			[
 				"image" => "1.webp",
 				"title" => '008 : Apprenti Espion',
@@ -187,7 +187,7 @@ $data = [
 				Mais il devra aussi affronter une dure réalité qu'il n'avait jamais vu auparavant...",
 			]
 			],
-		"Action" => [
+		"action" => [
 			[
 				"image" => "1.webp",
 				"title" => '7 Seeds',
@@ -281,47 +281,30 @@ $data = [
 				"resume" => "Naito et Yuta sont des jumeaux au caractères bien distincts. Le premier est assidu et fin tandis que le second est athlétique et se bagarre souvent. Malgré ces différences ils entretiennent une relation étroite. Cependant, un jour leur père disparaît, de ce fait ils partent à sa recherche et se rendent à Dubaï. Là bas, un étrange marchant ambulant les expédient dans le monde des Milles et Une Nuits.",
 			]
 			],
-		"Science Fiction" => [ 
+		"science fiction" => [ 
 			[
 				"image" => "1.webp",
-				"title" => 'Ai Mai Mi',
-				"auteur"=> "Choborau Nyopomi",
-				"date de sortie" => "2009",
-				"tome" => "11 (Terminé)",
-				"resume" => "On suit le quotidien de quatre amies collégiennes, Ai, Mai, Mii et Ponoka, toutes fans de dessin qui font partie du club manga de leur établissement. Elles se retrouvent en pleine lutte contre des créatures malveillantes venues d'ailleurs.",
+				"title" => 'One Piece',
+				"auteur"=> "Eiichirō Oda",
+				"date de sortie" => "20/10/199",
+				"tome" => "105 (en cours)",
+				"resume" => "One Piece raconte les aventures d'une bande de pirates, menée par le capitaine Monkey D. Luffy (qui a pour ambition de devenir le roi des pirates) et lancée à la recherche du trésor, nommé One Piece, du légendaire roi des pirates Gold Roger, mort sans avoir révélé l'emplacement de son butin.",
 			],
 			[
 				"image" => "2.webp",
-				"title" => 'Agharta',
-				"auteur"=> "Matsumoto Takaharu",
-				"date de sortie" => "1997",
-				"tome" => "9 (Abandonné)",
-				"resume" => "Un désir féroce se cache dans le silence...
-				Les oiseaux qui rêvent prient et la bête sauvage affamée danse...
-				La « chose » se trouve dans le tumulte...
-				
-				Agharta se déroule dans un futur indéterminé, alors que la planète entière est plongée dans un chaos sans nom, un désert apparemment irréversible, sur lequel toute vie est condamnée à périr un jour. Dans ce monde sans loi, l'eau pure est devenue la denrée la plus recherchée. Certains sont prêts à tuer pour mettre la main sur le précieux liquide.
-				
-				Ici, nous suivons les pas de Juju Meyer et de Rael. Juju est un jeune homme travaillant pour la pègre locale. Il a un drôle d'ami, Cori, un garçon un peu plus âgé que lui et assez excité de la gâchette. Il a une grande sœur, Anna-Maria, qui se trouve être la petite copine de Stipe Miles, son patron et chef de la mafia locale. Une sœur que l'on croisera plus tard, lors d'une séquence pitoyable.
-				
-				Rael est une jeune fille qui vit chez un vieillard nommé Lord Philip, sur une île, et qui semble ne s'épanouir qu'au contact de l'eau pure. Cette île, appelée « Higher Ground » par certains, est un gigantesque laboratoire d'expérimentation d'un programme de régénération artificielle des végétaux, autrement appelé « Tamarix ».
-				
-				Rael a été présentée à Juju comme une jeune fille dont la famille a été séparée par la guerre et les chamboulements qui en ont découlés. Le jeune homme, de nature altruiste, va tout naturellement l'aider à retrouver « les siens ».
-				
-				De là va commencer un long périple dans ce monde dévasté, mais aussi une cavale, car Rael n'est pas une fille ordinaire. Recherchée par l'armée dépêchée par ses « gardiens » de Higher Ground, et par les anciens employeurs de Juju, il se peut qu'elle soit une pièce capitale dans la machinerie complexe mise en place par les concepteurs du programme « Tamarix » dont les ramifications défient le temps et l'espace. Juju en fera l'expérience.
-				
-				Agharta est surtout un voyage dans les mémoires : mémoire de Rael, qui cherche à recouvrer la sienne, mais aussi mémoire du monde entier, dans laquelle se plongent les protagonistes, jusqu'à s'y perdre.",
+				"title" => 'Naruto',
+				"auteur"=> "Masashi Kishimoto",
+				"date de sortie" => "21/09/1999",
+				"tome" => "72 (Terminé)",
+				"resume" => "Dans l'univers de la série, Naruto est un jeune ninja du village de Konoha. Hôte du démon renard à neuf queues, une créature qui a attaqué le village par le passé, il est rejeté par les autres villageois. Son ambition est de devenir Hokage, le chef du village, afin de gagner le respect des habitants.",
 			],
 			[
 				"image" => "3.webp",
-				"title" => 'A Journey beyond Heaven',
-				"auteur"=> "Ishiguro Masakazu",
-				"date de sortie" => "2018",
-				"tome" => "8 (En cours)",
-				"resume" => "Dans un Japon dévasté par un mystérieux cataclysme, Maru et Kiruko, deux adolescents de la génération post-catastrophe, tentent de survivre.
-				Malgré la menace de monstres dévoreurs d'humains qui plane, ils ont un objectif : atteindre le \"paradis\"...
-				Dans un immense jardin coupé du monde, un groupe d'enfants jouit d'une vie douce, protégé par des scientifiques.
-				Le monde extérieur leur est inconnu mais certains d'entre eux se questionnent : qu'y a-t-il au-delà des murs de leur paradis ?",
+				"title" => 'Bleach',
+				"auteur"=> "Tite Kubo",
+				"date de sortie" => "07/08/2001",
+				"tome" => "74 (Terminé)",
+				"resume" => "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle shinigami (un être spirituel) en train de pourchasser une “âme perdue”, un esprit maléfique qui hante notre monde et n'arrive pas à trouver le repos.",
 			],
 			[
 				"image" => "4.webp",

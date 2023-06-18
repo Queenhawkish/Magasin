@@ -19,6 +19,9 @@
     align-items: center;
 }
 
+
+
+
 .title{
     display: flex;
     font-size: 1.5em;
@@ -27,7 +30,7 @@
 
 h1{
     margin-right: 10%;
-    color: #D9232E;
+    color: #d70818;
 }
 
 .research{
@@ -46,7 +49,7 @@ h1{
     margin-right: 1%;
     height: 1.1em;
     text-align: center;
-    border-color: #D9232E;
+    border-color: #d70818;
     margin-top: 0.7%;
     margin: auto;
 }
@@ -55,7 +58,11 @@ h1{
     width: 3em;
     height: 1.5em;
     margin: auto;
-    border-color: #D9232E;
+    border-color: #d70818;
+}
+
+.b:hover{
+  cursor: pointer;
 }
 
 .search::placeholder{
@@ -64,20 +71,24 @@ h1{
 
 .connect{
     display: flex;
-    color: #D9232E;
+    color: #d70818;
     width: 17em;
     height: 2em;
 }
 
 .addco{
     margin: auto;
-    color: #D9232E;
+    color: #d70818;
 }
+
+
+/* NAVBAR */
+
 
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: #D9232E;
+    background-color: #d70818;
     font-size: 2em;
     padding: 1%;
     align-items: center;
@@ -95,6 +106,10 @@ nav{
     justify-content: center;
 }
 
+.basket:hover{
+    cursor: pointer;
+}
+
 nav a{
     color: white;
     text-decoration: none;
@@ -109,8 +124,102 @@ nav a{
 
 
 
+/* Page d'accueil */
+
+/* Carousel test */
+
+.carousel {
+    padding: 20px;
+    perspective: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .carousel > * {
+    flex: 0 0 auto;
+  }
+  .carousel figure {
+    margin: 0;
+    width: 400px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    transform-origin: 50% 50% -482.8427124746px;
+  }
+  .carousel figure img {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 40px;
+    opacity: 0.9;
+  }
+  .carousel figure img:not(:first-of-type) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform-origin: 50% 50% -482.8427124746px;
+  }
+  .carousel figure img:nth-child(2) {
+    transform: rotateY(0.7853981634rad);
+  }
+  .carousel figure img:nth-child(3) {
+    transform: rotateY(1.5707963268rad);
+  }
+  .carousel figure img:nth-child(4) {
+    transform: rotateY(2.3561944902rad);
+  }
+  .carousel figure img:nth-child(5) {
+    transform: rotateY(3.1415926536rad);
+  }
+  .carousel figure img:nth-child(6) {
+    transform: rotateY(3.926990817rad);
+  }
+  .carousel figure img:nth-child(7) {
+    transform: rotateY(4.7123889804rad);
+  }
+  .carousel figure img:nth-child(8) {
+    transform: rotateY(5.4977871438rad);
+  }
+  .carousel nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0;
+  }
+  .carousel nav button {
+    flex: 0 0 auto;
+    margin: 0 5px;
+    cursor: pointer;
+    color: #333;
+    background: none;
+    border: 1px solid;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+  }
+  
+  
+  
+  
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Catégories */
 
 .content{
     display: flex;
@@ -120,7 +229,7 @@ nav a{
 
 .article{
     display: flex;
-    border-radius: 0.3em;
+    border-radius: 0.5em;
     border: 0.3em solid #847b7b;
     width: 25%;
     margin: 1%;
@@ -143,7 +252,7 @@ nav a{
 }
 
 h2{
-    color: #D9232E;
+    color: #d70818;
     text-align: center;
     margin: 10px;
 }
@@ -168,6 +277,96 @@ li{
 
 
 
+.sign{
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.form{
+  display: flex;
+  border: 2px solid black;
+  padding: 2em;
+  flex-direction: column;
+  border-radius: 0.3em;
+  background-color: #d70818;
+  width: 25%;
+}
+
+h3{
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  font-weight: 500;
+}
+
+.subscribe{
+  font-size: 1.2em;
+  text-align: center;
+  border-radius: 0.3em;
+  margin: 1em;
+  padding: 6px;
+  width: 80%;
+}
+
+.check_condition{
+  color: white;
+  text-align: center;
+  margin: 1em;
+}
+
+#condition:hover{
+  cursor: pointer;
+}
+
+.check_condition a{
+  color: white;
+}
+
+.sign_but{
+  width: 35%;
+  margin: auto;
+  font-size: 1.5em;
+  border-radius: 0.3em;
+  background-color: #d70818;
+  color: white;
+}
+
+.sign_but:hover{
+  cursor: pointer;
+}
+
+.forgot-pwd{
+  margin: 1em;
+  color: white;
+}
+
+.baskets{
+  display: flex;
+  background-color: #d70818;
+  justify-content: center;
+}
+
+.articles{
+  display: flex column;
+  background-color: white;
+  width: 80%;
+}
+
+.item{
+  display: flex;
+  margin: 1%;
+}
+
+.img_item{
+  width: 10em;
+  height: 13em;
+}
+
+.art_text{
+  display: flex;
+}
+
 
 
 
@@ -189,7 +388,7 @@ li{
 
 footer{
     display: flex;
-    background-color: #D9232E;
+    background-color: #d70818;
     padding: 10px;
     justify-content: center;
     width: 100%;

@@ -6,5 +6,5 @@
     <a href="../controllers/controllers_romance.php">Romance</a>
     
     
-    <button class="basket"><i class="bi bi-cart4"></i></button>
+    <a href="../controllers/controllers_basket.php" class="bask"><button class="basket"><i class="bi bi-cart4"></i></button></a>
 </nav>

@@ -1,14 +1,12 @@
 <?php
 require "../models/data.php";
-// echo "<pre>";
-// var_dump($data);
-// echo "</pre>";
+
+// Fonction pour aller chercher les datas de news
+
 function createNews($data)
 {
-    // echo "<pre>";
-    // var_dump($data["News"]);
-    // echo "</pre>";
-    foreach ($data["News"] as $news) {
+    
+    foreach ($data["news"] as $news) {
 
 
 
